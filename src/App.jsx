@@ -44,7 +44,7 @@ function App() {
           >
             Increase by 4
           </button>  
-          {/* New Button: Increase by 5 */}
+          
           <button
             className="counter"
             onClick={() => setCount((count) => count + 5)}
@@ -59,7 +59,6 @@ function App() {
             Increase by 5
           </button>
 
-          {/* New Button added here */}
           <button
             className="counter"
             onClick={() => setCount((count) => count + 10)}
