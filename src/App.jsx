@@ -31,12 +31,19 @@ function App() {
             Count is {count}
           </button>
 
-          {/* New Button added below */}
           <button
             className="counter"
             onClick={() => setCount((count) => count + 2)}
           >
             Increase by 2
+          </button>
+
+          {/* New Button added here */}
+          <button
+            className="counter"
+            onClick={() => setCount((count) => count + 4)}
+          >
+            Increase by 4
           </button>
 
           <button
