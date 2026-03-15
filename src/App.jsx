@@ -23,12 +23,20 @@ function App() {
         </div>
 
         {/* --- Buttons Section --- */}
-        <div style={{ display: 'flex', gap: '10px', justifyContent: 'center' }}>
+        <div style={{ display: 'flex', gap: '10px', justifyContent: 'center', flexWrap: 'wrap' }}>
           <button
             className="counter"
             onClick={() => setCount((count) => count + 1)}
           >
             Count is {count}
+          </button>
+
+          {/* New Button added below */}
+          <button
+            className="counter"
+            onClick={() => setCount((count) => count + 2)}
+          >
+            Increase by 2
           </button>
 
           <button
