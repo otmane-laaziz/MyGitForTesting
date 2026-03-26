@@ -30,7 +30,13 @@ function App() {
           >
             Count is {count}
           </button>
-
+		  <button
+		    className="counter"
+		    style={{ backgroundColor: '#ff4d4d', color: 'white' }} // Optional: make it stand out!
+		    onClick={() => setCount(0)}
+		  >
+		    Reset to 0
+		  </button>
           <button
             className="counter"
             onClick={() => setCount((count) => count + 2)}
@@ -65,7 +71,11 @@ function App() {
           >
             Decrease count
           </button>
+		  
+		  
         </div>
+		
+		
         {/* ------------------------ */}
 
       </section>
@@ -155,6 +165,9 @@ function App() {
 
       <div className="ticks"></div>
       <section id="spacer"></section>
+	  
+	  
+	  
     </>
   )
 }
