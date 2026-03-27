@@ -38,12 +38,7 @@ function App() {
             Increase by 2
           </button>
 
-          <button
-            className="counter"
-            onClick={() => setCount((count) => count + 4)}
-          >
-            Increase by 4
-          </button>  
+          
 
           <button
             className="counter"
