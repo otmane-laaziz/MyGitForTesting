@@ -30,13 +30,7 @@ function App() {
           >
             Count is {count}
           </button>
-		  <button
-		    className="counter"
-		    style={{ backgroundColor: '#ff4d4d', color: 'white' }} // Optional: make it stand out!
-		    onClick={() => setCount(0)}
-		  >
-		    Reset to 0
-		  </button>
+		
           <button
             className="counter"
             onClick={() => setCount((count) => count + 2)}
@@ -44,12 +38,7 @@ function App() {
             Increase by 2
           </button>
 
-          <button
-            className="counter"
-            onClick={() => setCount((count) => count + 4)}
-          >
-            Increase by 4
-          </button>  
+          
 
           <button
             className="counter"
