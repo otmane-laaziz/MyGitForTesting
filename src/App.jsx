@@ -32,7 +32,13 @@ function App() {
           </button>
 		
          
-		
+		  <button
+		             className="counter"
+		             
+		           >
+		            Click Me
+		           </button>
+		  	
 		  
 		  
 		  
