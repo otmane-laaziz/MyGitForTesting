@@ -31,47 +31,17 @@ function App() {
             Count is {count}
           </button>
 		
-          <button
-            className="counter"
-            onClick={() => setCount((count) => count + 2)}
-          >
-            Increase by 2
-          </button>
-		  <button
-		             className="counter"
-		             onClick={() => setCount((count) => count + 33)}
-		           >
-		             Increase by 33
-		           </button>
+         
+		
 		  
 		  
-		  <button
-		              className="counter"
-		              onClick={() => setCount((count) => count + 200)}
-		            >
-		              Increase by 200
-		            </button>
+		  
 
-					<button
-						              className="counter"
-						              onClick={() => setCount((count) => count + 400)}
-						            >
-						              Increase by 400
-						            </button>
+				
 
-          <button
-            className="counter"
-            onClick={() => setCount((count) => count + 10)}
-          >
-            Increase by 10
-          </button>
+        
 		  
-          <button
-            className="counter"
-            onClick={() => setCount((count) => count + 20)}
-          >
-            Increase by 20
-          </button>
+         
 
           <button
             className="counter"
