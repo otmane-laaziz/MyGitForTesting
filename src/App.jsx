@@ -37,6 +37,12 @@ function App() {
           >
             Increase by 2
           </button>
+		  <button
+		             className="counter"
+		             onClick={() => setCount((count) => count + 33)}
+		           >
+		             Increase by 33
+		           </button>
 		  
 		  
 		  <button
