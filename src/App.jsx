@@ -55,6 +55,12 @@ function App() {
           >
             Decrease count
           </button>
+		  <button
+		              className="counter"
+		              onClick={() => setCount((count) => count + 8)}
+		            >
+		              Add count by 8
+		            </button>
 		  
 		  
         </div>
