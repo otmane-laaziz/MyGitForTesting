@@ -31,7 +31,12 @@ function App() {
             Count is {count}
           </button>
 		
-         
+		  <button
+		              className="counter"
+		              onClick={() => setCount((count) => count + 88)}
+		            >
+		              Add Count by 88
+		            </button>
 		  <button
 		             className="counter"
 		             
